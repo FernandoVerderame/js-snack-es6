@@ -22,4 +22,11 @@ const guestsList = [];
 // Ciclo su tutti gli elementi dell'array guests
 for (let i = 0; i < guests.length; i++) {
 
+    // Creo gli oggetti del nuovo array
+    const guest = {
+        table: tableName,
+        name: guests[i],
+        place: (i+1)
+    }
+
 }
