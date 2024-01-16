@@ -13,3 +13,6 @@ const guests = [
   'Amal Clooney',
   'Maneskin'
 ];
+
+// Creo un nuovo array degli invitati
+const guestsList = [];
