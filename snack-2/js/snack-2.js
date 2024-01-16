@@ -1,3 +1,6 @@
+// Prendo gli elementi dal DOM
+const list = document.getElementById('list');
+
 // Creo l'array degli studenti
 const students = [
     {
@@ -37,6 +40,7 @@ const students = [
     }
 ];
 
+/*
 console.log(students);
 
 // Creo una lista di tutti gli studenti con voto > 70
@@ -57,3 +61,29 @@ for (let i = 0; i < students.length; i++) {
 
 // Stampo in console il nuovo array
 console.log(over120Over70Students);
+*/
+
+
+
+
+let items = '';
+
+for (let j = 0; j < students.length; j++) {
+
+    const student = students[j];
+
+    // Trasformo i nomi della targa tutto in maiuscolo
+    const upperName = student.name.toUpperCase();
+
+    items += `
+    <li>
+        <div>${student.id} | ${upperName} | ${student.grades}</div>
+    </li>
+    `
+
+}
+
+// Stampo in pagina la lista di informazioni
+list.innerHTML = items;
+
+console.log(items);
