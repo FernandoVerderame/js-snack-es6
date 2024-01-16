@@ -42,3 +42,6 @@ console.log(students);
 // Creo una lista di tutti gli studenti con voto > 70
 const over70Students = students.filter(({ grades }) => grades > 70);
 console.log(over70Students);
+
+// Creo una lista di tutti gli studenti con voto > 70 e id > 120
+const over120Over70Students = [];
