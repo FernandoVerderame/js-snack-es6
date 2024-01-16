@@ -36,3 +36,22 @@ Id|Name|Grades
 102|Piero della Francesca|50
 120|Francesca da Polenta|84
 Buon lavoro!
+
+
+
+##  SCALETTA 1
+1. Aggiungo l'array degli invitati
+2. Creo un nuovo array
+3. Creo gli oggetti del nuovo array
+4. Pusho gli oggetti nel nuovo array
+5. Stampo il nuovo array in console
+
+
+
+##  SCALETTA 2 
+1. Creo l'array degli studenti
+2. Creo la lista degli studenti con voto superiore a 70
+3. Creo la lista degli studenti con id superiore a 120 e con voto superiore a 70
+4. Prendo l'elemento dal DOM
+5. Trasformo i nomi degli studenti tutto in maiuscolo
+6. Stampo in pagina la targa con la lista dei nomi
