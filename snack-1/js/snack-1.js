@@ -14,5 +14,12 @@ const guests = [
   'Maneskin'
 ];
 
+console.log(guests);
+
 // Creo un nuovo array degli invitati
 const guestsList = [];
+
+// Ciclo su tutti gli elementi dell'array guests
+for (let i = 0; i < guests.length; i++) {
+
+}
