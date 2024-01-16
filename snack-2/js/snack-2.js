@@ -45,3 +45,12 @@ console.log(over70Students);
 
 // Creo una lista di tutti gli studenti con voto > 70 e id > 120
 const over120Over70Students = [];
+
+// Ciclo su tutti gli elementi dell'array students
+for (let i = 0; i < students.length; i++) {
+
+    const student = students[i];
+
+    // ! Validazione
+    if (student.id > 120 && student.grades > 70) over120Over70Students.push(student);
+}
