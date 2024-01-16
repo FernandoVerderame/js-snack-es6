@@ -29,4 +29,7 @@ for (let i = 0; i < guests.length; i++) {
         place: (i+1)
     }
 
+    // Pusho gli oggetti
+    guestsList.push(guest);
+
 }
