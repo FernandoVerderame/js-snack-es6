@@ -33,3 +33,6 @@ for (let i = 0; i < guests.length; i++) {
     guestsList.push(guest);
 
 }
+
+// Stampo in console il nuovo array 
+console.log(guestsList);
