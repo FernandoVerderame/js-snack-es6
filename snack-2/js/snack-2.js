@@ -54,3 +54,6 @@ for (let i = 0; i < students.length; i++) {
     // ! Validazione
     if (student.id > 120 && student.grades > 70) over120Over70Students.push(student);
 }
+
+// Stampo in console il nuovo array
+console.log(over120Over70Students);
