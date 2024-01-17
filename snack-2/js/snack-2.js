@@ -40,50 +40,27 @@ const students = [
     }
 ];
 
-/*
+
 console.log(students);
 
 // Creo una lista di tutti gli studenti con voto > 70
 const over70Students = students.filter(({ grades }) => grades > 70);
 console.log(over70Students);
 
+
 // Creo una lista di tutti gli studenti con voto > 70 e id > 120
-const over120Over70Students = [];
-
-// Ciclo su tutti gli elementi dell'array students
-for (let i = 0; i < students.length; i++) {
-
-    const student = students[i];
-
-    // ! Validazione
-    if (student.id > 120 && student.grades > 70) over120Over70Students.push(student);
-}
-
-// Stampo in console il nuovo array
-console.log(over120Over70Students);
-*/
+const over120Students = over70Students.filter(({ id }) => id > 120)
+console.log(over120Students);
 
 
-
+// Creo un
+const plates = students.map(({ name }) => name.toUpperCase());
+console.log(plates);
 
 let items = '';
 
-for (let j = 0; j < students.length; j++) {
+plates.forEach(plate => {
+    items += `<li>${plate}</li>`;
+})
 
-    const student = students[j];
-
-    // Trasformo i nomi della targa tutto in maiuscolo
-    const upperName = student.name.toUpperCase();
-
-    items += `
-    <li>
-        <div>${student.id} | ${upperName} | ${student.grades}</div>
-    </li>
-    `
-
-}
-
-// Stampo in pagina la lista di informazioni
 list.innerHTML = items;
-
-console.log(items);
