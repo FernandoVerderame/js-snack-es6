@@ -1,5 +1,5 @@
 // Aggiungo l'array degli invitati
-const tableName = 'Tavolo Vip';
+const table = 'Tavolo Vip';
 
 const guests = [
   'Brad Pitt',
@@ -17,22 +17,9 @@ const guests = [
 console.log(guests);
 
 // Creo un nuovo array degli invitati
-const guestsList = [];
-
-// Ciclo su tutti gli elementi dell'array guests
-for (let i = 0; i < guests.length; i++) {
-
-    // Creo gli oggetti del nuovo array
-    const guest = {
-        table: tableName,
-        name: guests[i],
-        place: (i+1)
-    }
-
-    // Pusho gli oggetti
-    guestsList.push(guest);
-
-}
+const guestsList = guests.map((name, i) => ({ table, name, place: i+1 }));
 
 // Stampo in console il nuovo array 
-console.log(guestsList);
+console.log(guestsList);  
+  
+
