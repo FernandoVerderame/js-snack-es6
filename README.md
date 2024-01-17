@@ -55,3 +55,18 @@ Buon lavoro!
 4. Prendo l'elemento dal DOM
 5. Trasformo i nomi degli studenti tutto in maiuscolo
 6. Stampo in pagina la targa con la lista dei nomi
+
+
+
+##  SCALETTA 3
+1. Creo un nuovo array composto soltanto dai pesi delle bici
+2. Calcolo il peso minore
+3. Cerco la bici con valore corrispondente al peso minimo
+4. Stampo in console
+
+
+
+##  SCALETTA 4 
+1. Creo un nuovo array con stesso nome ma con valori randomici in punti fatti e falli subiti
+2. Creo un nuovo array composto dai nomi ed i falli subiti
+3. Stampo in console
