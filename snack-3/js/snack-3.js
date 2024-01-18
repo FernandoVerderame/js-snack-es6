@@ -32,5 +32,5 @@ const lessWeight = Math.min(...weightArray);
 console.log(lessWeight);
 
 // Cerco la bici con valore corrispondente al peso minimo
-const lessWeightbicyle = bicyles.find(({ weight }) => weight === lessWeight);
-console.log(lessWeightbicyle);
+const lessWeightBicyle = bicyles.find(({ weight }) => weight === lessWeight);
+console.log(lessWeightBicyle);
