@@ -22,7 +22,7 @@ const teams = [
     }, 
     {
         name: 'Juventus',
-        points: 27,
+        points: 0,
         fouls: 0
     } 
 ];
